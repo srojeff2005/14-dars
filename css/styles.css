@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.main-section{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:  url(../img/268571\ 1.png);
+backdrop-filter: blur(10px);
+}
+header{
+    width: 1440px;
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 42px;
+}
+.nav-links img{
+    height: 25px;
+}
+.menu{
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu img{
+    margin-right: 5px;
+}
+.link{
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+/* Header finished */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 315px;
+}
+.main-left{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
+.main-left h1{
+    font-weight: 600;
+    font-size: 65px;
+    color: #fff;
+}
+.social{
+    position: absolute;
+    top: 356px;
+    width: 100%;
+    height: 44px;
+}
+.socials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90.16deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.link-2{
+    font-size: 15px;
+}
+.icon{
+    color: #fff;
+    margin-right: 5px;
+}
+.start{
+    background-color: #00FF75;
+    color: #fff;
+    text-decoration: none;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    left: 580px;
+    top: 242px;
+    border-radius: 10px;
+}
+.main-right{
+    width: 50%;
+    height: 100%;
+}
+.main-right img{
+    position: relative;
+    z-index: 1;
+}
+/* section-1 finished */
+
+.section-2{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Rectangle\ 47.png);
+}
+.section-2-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-content{
+    width: 1080px;
+    height: 350px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-content h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+}
